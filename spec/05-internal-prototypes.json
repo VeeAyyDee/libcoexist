@@ -1,0 +1,263 @@
+{
+  "scope": "43 normalized compatible C declarations, complementing the 46 public SDK declarations. This does not pretend to recover unavailable original typedef names.",
+  "functions": [
+    {
+      "name": "esp_coex_i154_funcs_md5_check",
+      "normalized_compatible_declaration": "int esp_coex_i154_funcs_md5_check(const char *md5);",
+      "evidence": "F:esp_coex_i154_funcs_md5_check",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_pti_set",
+      "normalized_compatible_declaration": "int coex_pti_set(uint32_t event, uint8_t priority);",
+      "evidence": "F:coex_pti_set",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_is_running",
+      "normalized_compatible_declaration": "bool coex_is_running(void);",
+      "evidence": "F:coex_is_running",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "ic_set_extern_coex",
+      "normalized_compatible_declaration": "int ic_set_extern_coex(int level1, int level2, int level3);",
+      "evidence": "F:ic_set_extern_coex",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "ic_stop_extern_coex",
+      "normalized_compatible_declaration": "void ic_stop_extern_coex(void);",
+      "evidence": "F:ic_stop_extern_coex",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "esp_coex_external_get_wire_type",
+      "normalized_compatible_declaration": "int esp_coex_external_get_wire_type(void);",
+      "evidence": "F:esp_coex_external_get_wire_type",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_core_pti_set",
+      "normalized_compatible_declaration": "int coex_core_pti_set(uint32_t event, uint8_t priority);",
+      "evidence": "F:coex_core_pti_set",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_core_pti_get",
+      "normalized_compatible_declaration": "int coex_core_pti_get(uint32_t event, uint8_t *priority);",
+      "evidence": "F:coex_core_pti_get",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_core_timer_idx_get",
+      "normalized_compatible_declaration": "uint8_t coex_core_timer_idx_get(uint32_t event);",
+      "evidence": "F:coex_core_timer_idx_get",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_core_request",
+      "normalized_compatible_declaration": "int coex_core_request(uint8_t radio, uint32_t event, uint32_t latency, uint32_t duration);",
+      "evidence": "F:coex_core_request",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_core_release",
+      "normalized_compatible_declaration": "int coex_core_release(uint8_t radio, uint32_t event);",
+      "evidence": "F:coex_core_release",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_core_event_duration_get",
+      "normalized_compatible_declaration": "int coex_core_event_duration_get(uint32_t event, uint32_t *duration);",
+      "evidence": "F:coex_core_event_duration_get",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_core_pre_init",
+      "normalized_compatible_declaration": "int coex_core_pre_init(void);",
+      "evidence": "F:coex_core_pre_init",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_core_init",
+      "normalized_compatible_declaration": "int coex_core_init(void);",
+      "evidence": "F:coex_core_init",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_core_deinit",
+      "normalized_compatible_declaration": "int coex_core_deinit(void);",
+      "evidence": "F:coex_core_deinit",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_core_enable",
+      "normalized_compatible_declaration": "int coex_core_enable(void);",
+      "evidence": "F:coex_core_enable",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_core_disable",
+      "normalized_compatible_declaration": "int coex_core_disable(void);",
+      "evidence": "F:coex_core_disable",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_core_status_get",
+      "normalized_compatible_declaration": "uint32_t coex_core_status_get(void);",
+      "evidence": "F:coex_core_status_get",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_core_register_start_cb",
+      "normalized_compatible_declaration": "int coex_core_register_start_cb(int (*callback)(void));",
+      "evidence": "F:coex_core_register_start_cb",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_dbg_output",
+      "normalized_compatible_declaration": "void coex_dbg_output(int event, int signal);",
+      "evidence": "F:coex_dbg_output",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_dbg_set_log_level",
+      "normalized_compatible_declaration": "void coex_dbg_set_log_level(uint32_t level);",
+      "evidence": "F:coex_dbg_set_log_level",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_hw_timer_set",
+      "normalized_compatible_declaration": "void coex_hw_timer_set(uint8_t index, uint8_t radio, uint8_t priority, uint32_t latency, uint32_t duration);",
+      "evidence": "F:coex_hw_timer_set",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_hw_timer_enable",
+      "normalized_compatible_declaration": "void coex_hw_timer_enable(uint8_t index);",
+      "evidence": "F:coex_hw_timer_enable",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_hw_timer_disable",
+      "normalized_compatible_declaration": "void coex_hw_timer_disable(uint8_t index);",
+      "evidence": "F:coex_hw_timer_disable",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_hw_timer_force",
+      "normalized_compatible_declaration": "void coex_hw_timer_force(uint8_t index);",
+      "evidence": "F:coex_hw_timer_force",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_hw_timer_unforce",
+      "normalized_compatible_declaration": "void coex_hw_timer_unforce(uint8_t index);",
+      "evidence": "F:coex_hw_timer_unforce",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_hw_debug_matrix_config",
+      "normalized_compatible_declaration": "int coex_hw_debug_matrix_config(int event);",
+      "evidence": "F:coex_hw_debug_matrix_config",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_hw_debug_matrix_init",
+      "normalized_compatible_declaration": "int coex_hw_debug_matrix_init(void);",
+      "evidence": "F:coex_hw_debug_matrix_init",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_rom_data_init",
+      "normalized_compatible_declaration": "void coex_rom_data_init(void);",
+      "evidence": "F:coex_rom_data_init",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_rom_osi_funcs_init",
+      "normalized_compatible_declaration": "int coex_rom_osi_funcs_init(void);",
+      "evidence": "F:coex_rom_osi_funcs_init",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_rom_osi_funcs_deinit",
+      "normalized_compatible_declaration": "void coex_rom_osi_funcs_deinit(void);",
+      "evidence": "F:coex_rom_osi_funcs_deinit",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_schm_lock",
+      "normalized_compatible_declaration": "int coex_schm_lock(void);",
+      "evidence": "F:coex_schm_lock",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_schm_unlock",
+      "normalized_compatible_declaration": "int coex_schm_unlock(void);",
+      "evidence": "F:coex_schm_unlock",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_schm_status_get",
+      "normalized_compatible_declaration": "uint32_t coex_schm_status_get(uint32_t type);",
+      "evidence": "F:coex_schm_status_get",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_schm_status_bitmap_get",
+      "normalized_compatible_declaration": "uint32_t coex_schm_status_bitmap_get(void);",
+      "evidence": "F:coex_schm_status_bitmap_get",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_schm_init",
+      "normalized_compatible_declaration": "int coex_schm_init(void);",
+      "evidence": "F:coex_schm_init",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "coex_schm_deinit",
+      "normalized_compatible_declaration": "void coex_schm_deinit(void);",
+      "evidence": "F:coex_schm_deinit",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "hal_coex_set_wait_time",
+      "normalized_compatible_declaration": "void hal_coex_set_wait_time(uint32_t first, uint32_t second);",
+      "evidence": "F:hal_coex_set_wait_time",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "hal_enable_extern_coex",
+      "normalized_compatible_declaration": "void hal_enable_extern_coex(void);",
+      "evidence": "F:hal_enable_extern_coex",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "hal_disable_extern_coex",
+      "normalized_compatible_declaration": "void hal_disable_extern_coex(void);",
+      "evidence": "F:hal_disable_extern_coex",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "hal_set_extern_pti",
+      "normalized_compatible_declaration": "void hal_set_extern_pti(uint32_t p0, uint32_t p1, uint32_t p2, uint32_t p3, uint32_t p4, uint32_t p5);",
+      "evidence": "F:hal_set_extern_pti",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "hal_clr_extern_pti",
+      "normalized_compatible_declaration": "void hal_clr_extern_pti(void);",
+      "evidence": "F:hal_clr_extern_pti",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    },
+    {
+      "name": "hal_set_extern_coex_gpio",
+      "normalized_compatible_declaration": "void hal_set_extern_coex_gpio(uint32_t selection);",
+      "evidence": "F:hal_set_extern_coex_gpio",
+      "source_type_status": "Original private typedef spelling unavailable; declaration preserves established argument slot positions, consumed widths, pointer use and observable return contract. Read explanatory addendum before integrating with public SDK typedefs."
+    }
+  ]
+}

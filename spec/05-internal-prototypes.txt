@@ -1,0 +1,48 @@
+Normalized declarations; include <stdint.h> and <stdbool.h>. See 05-internal-prototypes.md.
+
+int esp_coex_i154_funcs_md5_check(const char *md5);
+int coex_pti_set(uint32_t event, uint8_t priority);
+bool coex_is_running(void);
+int ic_set_extern_coex(int level1, int level2, int level3);
+void ic_stop_extern_coex(void);
+int esp_coex_external_get_wire_type(void);
+int coex_core_pti_set(uint32_t event, uint8_t priority);
+int coex_core_pti_get(uint32_t event, uint8_t *priority);
+uint8_t coex_core_timer_idx_get(uint32_t event);
+int coex_core_request(uint8_t radio, uint32_t event, uint32_t latency, uint32_t duration);
+int coex_core_release(uint8_t radio, uint32_t event);
+int coex_core_event_duration_get(uint32_t event, uint32_t *duration);
+int coex_core_pre_init(void);
+int coex_core_init(void);
+int coex_core_deinit(void);
+int coex_core_enable(void);
+int coex_core_disable(void);
+uint32_t coex_core_status_get(void);
+int coex_core_register_start_cb(int (*callback)(void));
+void coex_dbg_output(int event, int signal);
+void coex_dbg_set_log_level(uint32_t level);
+void coex_hw_timer_set(uint8_t index, uint8_t radio, uint8_t priority, uint32_t latency, uint32_t duration);
+void coex_hw_timer_enable(uint8_t index);
+void coex_hw_timer_disable(uint8_t index);
+void coex_hw_timer_force(uint8_t index);
+void coex_hw_timer_unforce(uint8_t index);
+int coex_hw_debug_matrix_config(int event);
+int coex_hw_debug_matrix_init(void);
+void coex_rom_data_init(void);
+int coex_rom_osi_funcs_init(void);
+void coex_rom_osi_funcs_deinit(void);
+int coex_schm_lock(void);
+int coex_schm_unlock(void);
+uint32_t coex_schm_status_get(uint32_t type);
+uint32_t coex_schm_status_bitmap_get(void);
+int coex_schm_init(void);
+void coex_schm_deinit(void);
+void hal_coex_set_wait_time(uint32_t first, uint32_t second);
+void hal_enable_extern_coex(void);
+void hal_disable_extern_coex(void);
+void hal_set_extern_pti(uint32_t p0, uint32_t p1, uint32_t p2, uint32_t p3, uint32_t p4, uint32_t p5);
+void hal_clr_extern_pti(void);
+void hal_set_extern_coex_gpio(uint32_t selection);
+
+const char *esp_coex_rom_version_get(void);
+int coex_core_ble_conn_dyn_prio_get(bool *low, bool *high);

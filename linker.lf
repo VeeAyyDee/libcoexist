@@ -1,0 +1,5 @@
+# All runtime code and reachable constants stay available with flash disabled.
+[mapping:libcoexist_original_source]
+archive: libcoexist.a
+entries:
+    * (noflash)

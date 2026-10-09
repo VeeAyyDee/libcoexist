@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-08",
+  "target": "ESP32-S3 / ESP-IDF 6.0.3",
+  "status": "bounded-validation-pass",
+  "target_audit": {
+    "status": "pass",
+    "functions": 89,
+    "data_exports": 117,
+    "candidate_archive_sha256": "96a01ee683785cb3a8cf814a4167fb8e186f681a144f26fb25119bb29182481b",
+    "elf_sha256": "bc3fdb59b64176b0da5a12bce309fdae2a6895fbc9692fd544c515ada1444fcd",
+    "all_required_functions_defined_in_application": true,
+    "vendor_archive_absent_from_link": true,
+    "policy_initialization_matches": true,
+    "scope": "ABI/placement/binding and initial values; not behavioral equivalence or RF/timing proof."
+  },
+  "independent_original_comparison": {
+    "status": "pass",
+    "selector_cases": 256,
+    "mmio_cases": 68,
+    "mmio_transactions": 314,
+    "failures": [],
+    "source_sha256": {
+      "src/accessors.c": "3606cbda157d07a6a1ddbf4378d967b0877b664d18e6d02b20c8e28f535ce8eb",
+      "src/api.c": "443f6f48abe8c63f849af2a9edb859714ec14027c85dd0277a079d9fc7622c3a",
+      "src/core.c": "2aa4b6829faabd7099ebe3ca956f8bad34a34dabe544ab69d9f01bcbab7d4b51",
+      "src/external.c": "71c8d3b59c00be4e300af066802025c71822518cc26d01daf56dc69163c7c296",
+      "src/hardware.c": "00a955b90a1828533ad9a33ced537fed269e7dd2c49d5c1ff5b3c0ee6e4ef8bc",
+      "src/policy.c": "2d4d02c0e2b2746e31b67ca921f50caf815b3576b6629d1bab73c8482e3cea9a",
+      "src/rom_data.c": "2e1e9899860ba3ecc3ce82731ca40eaf962b89ea71a0855879567a7efc8b31ea",
+      "src/rom_dispatch.c": "f91c8ff2cbf5cbe7c7c5ae334fa98535e577f010d6cc50f33472b27873edd005",
+      "src/scheduler.c": "34bb09e3ae17493d2f4fec9993d4df661de3a72fa4c330b44ffb4757fa06e7b8"
+    },
+    "oracle_receipt_sha256": "e266059f6ec77c858e9bc6d1b23a28ab2f9203058b3181e15ef5e5fa7f69b749",
+    "harness_sha256": "01d525dffb381dc2e5c92e5411735a73457ed61ca8d794442b859d133720c2af",
+    "scope": "Fresh native compiled selector outputs and exact orderedMMIO address/width/value reads/writes vs original Xtensa interpreter; one barrier per access additionally checked. No physical timing/interrupt/RF equivalence claim."
+  },
+  "hardware": {
+    "status": "pass",
+    "device_boots": 8,
+    "rounds": 4,
+    "payload_lengths": [
+      32,
+      250,
+      251,
+      1470
+    ],
+    "verified_application_deliveries": 136,
+    "wrong_key_rejections": 8,
+    "firmware_checks": 984,
+    "failures": 0,
+    "matrix": [
+      {
+        "a": "reference",
+        "b": "reference",
+        "warm": false,
+        "a_to_b_plain": 8,
+        "b_to_a_plain": 8,
+        "a_to_b_encrypted": 9,
+        "b_to_a_encrypted": 9,
+        "wrong_key_rejections": 2
+      },
+      {
+        "a": "reference",
+        "b": "reference",
+        "warm": true,
+        "a_to_b_plain": 8,
+        "b_to_a_plain": 8,
+        "a_to_b_encrypted": 9,
+        "b_to_a_encrypted": 9,
+        "wrong_key_rejections": 2
+      },
+      {
+        "a": "coexist",
+        "b": "coexist",
+        "warm": false,
+        "a_to_b_plain": 8,
+        "b_to_a_plain": 8,
+        "a_to_b_encrypted": 9,
+        "b_to_a_encrypted": 9,
+        "wrong_key_rejections": 2
+      },
+      {
+        "a": "coexist",
+        "b": "coexist",
+        "warm": true,
+        "a_to_b_plain": 8,
+        "b_to_a_plain": 8,
+        "a_to_b_encrypted": 9,
+        "b_to_a_encrypted": 9,
+        "wrong_key_rejections": 2
+      }
+    ],
+    "peer_ble_reports": 214,
+    "wapi_crypto_checks": 288,
+    "openssl_encrypt_and_mic_cross_checked": true,
+    "both_full_flash_images_restored_verified": true,
+    "calibration_saved_reused_both_boards": true,
+    "host_payload_crc_recomputed": true,
+    "trial_sha256": "3f8adc11f83faf1656a01eace90c593568200af0b19814228231a90a130c13c8",
+    "console_receipts_cross_checked": true,
+    "flashed_build_hashes_rechecked": true,
+    "scope": "Bounded simultaneous bidirectional ESP-NOW and peer BLE advertising/scanning using vendor MAC/PHY/controller and synthetic keys. Fresh semantic coexistence replacement isolated against vendor reference; original WAPI retained in both variants. WAPI crypto outputs compared to vendor; encrypt/MIC additionally checked with OpenSSL. No WAPI access-point authentication, RF performance, sustained-load, full coexistence scheduling, custom PHY or LR proof."
+  },
+  "runtime_sha256": {
+    "include/coexist_diagnostics.h": "1c5ffccf18a985636ebcbb252e0224d300e62b680672e2eae4bffcef48508c87",
+    "include/coexist_mmio.h": "f4480a2d055c7317efc28e167db084a870fb6f5e20be9f746470fec641fbbfdc",
+    "include/coexist_policy.h": "b7101b305961f82549324a0e135c5016d3246de1a5774ed12236e49f42129d77",
+    "include/coexist_subset.h": "18337d09852476615e1af80b653093b3c4c879a0a7ca3999395095c8aaf8ab4b",
+    "src/accessors.c": "3606cbda157d07a6a1ddbf4378d967b0877b664d18e6d02b20c8e28f535ce8eb",
+    "src/api.c": "443f6f48abe8c63f849af2a9edb859714ec14027c85dd0277a079d9fc7622c3a",
+    "src/core.c": "2aa4b6829faabd7099ebe3ca956f8bad34a34dabe544ab69d9f01bcbab7d4b51",
+    "src/external.c": "71c8d3b59c00be4e300af066802025c71822518cc26d01daf56dc69163c7c296",
+    "src/hardware.c": "00a955b90a1828533ad9a33ced537fed269e7dd2c49d5c1ff5b3c0ee6e4ef8bc",
+    "src/policy.c": "2d4d02c0e2b2746e31b67ca921f50caf815b3576b6629d1bab73c8482e3cea9a",
+    "src/rom_data.c": "2e1e9899860ba3ecc3ce82731ca40eaf962b89ea71a0855879567a7efc8b31ea",
+    "src/rom_dispatch.c": "f91c8ff2cbf5cbe7c7c5ae334fa98535e577f010d6cc50f33472b27873edd005",
+    "src/scheduler.c": "34bb09e3ae17493d2f4fec9993d4df661de3a72fa4c330b44ffb4757fa06e7b8"
+  },
+  "limits": "Bounded tests, not complete behavioral equivalence. Vendor MAC/PHY/Bluetooth controller and ROM dependencies remain."
+}

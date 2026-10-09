@@ -1,0 +1,10 @@
+Real SDK linking exposed 14 active absolute ROM assignments overriding the
+fresh definitions despite archive replacement. Supervisor added a build-only
+hook to generate a local copy of the SDK ROM linker script, removing only
+those 14 function assignments; original SDK and ROM data cells remain unchanged.
+Hook checks exact SDK version/target/script hash and preserves all other flags.
+Runtime source unchanged. Complete final ELF ownership/IRAM audit must pass
+before hardware; successful linking by itself was insufficient.
+
+Independent native fresh-C vs original-Xtensa checks pass 256 selector cases
+and 68 MMIO cases, including 314 ordered address/width/value transactions.

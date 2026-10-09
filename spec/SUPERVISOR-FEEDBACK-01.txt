@@ -1,0 +1,5 @@
+Real SDK configure pass found relative configure_file input resolved against
+the temporary dependency-scanner working directory instead of the component.
+Use ${CMAKE_CURRENT_LIST_DIR}/spec/public-sdk/esp_coexist_adapter.h as the
+absolute input path. Supervisor applies this build-only fix; runtime stays
+implementation-agent authored. Hook/real SDK checking continues.

@@ -1,0 +1,553 @@
+{
+  "scope": "Functional-contract host tests; coverage categories are not instruction or hardware coverage",
+  "functions": [
+    {
+      "name": "esp_coex_adapter_funcs_md5_check",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "esp_coex_i154_funcs_md5_check",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "esp_coex_adapter_register",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "esp_coex_status_bit_set",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "esp_coex_status_bit_clear",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_event_duration_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_pti_set",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_pti_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_wifi_request",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_wifi_release",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_bt_request",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_bt_release",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_pre_init",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_init",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_deinit",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_enable",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_disable",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_status_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_is_running",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_preference_set",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_version_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_version_get_value",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_wifi_register_update_lpclk_callback",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_update_lpclk_interval",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_register_start_cb",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "ic_set_extern_coex",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "ic_stop_extern_coex",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "esp_coex_external_set",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "esp_coex_external_stop",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "esp_coex_external_set_txline",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "esp_coex_external_set_wire_type",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "esp_coex_external_get_wire_type",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_core_pti_set",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_core_pti_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_core_timer_idx_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_core_request",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_core_release",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_core_event_duration_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_core_pre_init",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_core_init",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_core_deinit",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_core_enable",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_core_disable",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_core_status_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_core_register_start_cb",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_gpio_debug_matrix_init",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_gpio_debug_matrix_config",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_set_gpio_debug_cb",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_dbg_output",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_gpio_debug_max_event_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_dbg_set_log_level",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_hw_timer_set",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_hw_timer_enable",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_hw_timer_disable",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_hw_timer_force",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_hw_timer_unforce",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_hw_debug_matrix_config",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_hw_debug_matrix_init",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_rom_data_init",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_rom_osi_funcs_init",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_rom_osi_funcs_deinit",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_lock",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_unlock",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_status_bit_set",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: scheduler integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_status_bit_clear",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: scheduler integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_status_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_status_bitmap_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_curr_phase_idx_set",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_curr_phase_idx_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_interval_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_interval_set",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_curr_period_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_curr_phase_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_get_phase_by_idx",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_register_callback",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_wifi_channel_set",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_wifi_channel_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_register_wifi_channel_change_callback",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_process_restart",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: scheduler integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_flexible_period_set",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_flexible_period_get",
+      "implemented": true,
+      "verification_family": "tests/test.c: core/API/accessor behavior",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_init",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: scheduler integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "coex_schm_deinit",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: scheduler integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "hal_coex_set_wait_time",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "hal_enable_extern_coex",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "hal_disable_extern_coex",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "hal_set_extern_pti",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "hal_clr_extern_pti",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    },
+    {
+      "name": "hal_set_extern_coex_gpio",
+      "implemented": true,
+      "verification_family": "tests/test_full.c: MMIO/external integration",
+      "equivalence_proven": false
+    }
+  ],
+  "supervisor_independent_comparison": {
+    "source": "spec/SUPERVISOR-FEEDBACK-02.txt",
+    "result": "PASS",
+    "selector_cases": 256,
+    "mmio_cases": 68,
+    "ordered_mmio_transactions": 314,
+    "scope": "Native fresh C versus original Xtensa; bounded cases, not whole-program or hardware equivalence",
+    "private_oracle_read_by_implementation_agent": false
+  },
+  "target_link_integration": {
+    "absolute_rom_function_conflicts": 14,
+    "correction": "Supervisor-authored build-local ROM linker script; installed SDK unchanged; target/version/script hash guarded",
+    "final_relink_ownership_placement_audit": "Pending supervisor validation"
+  }
+}

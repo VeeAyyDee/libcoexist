@@ -1,0 +1,88 @@
+{
+  "implementation_license": "MPL-2.0",
+  "public_sdk_declarations_license": "Apache-2.0 (retained notices)",
+  "allowed_input_boundary": "This libcoexist tree and standard host compiler/system headers only",
+  "excluded_inputs": [
+    "Original binaries/disassembly",
+    "Reconstructed source",
+    "Private evidence paths",
+    "Other implementation trees",
+    "Installed SDK sources"
+  ],
+  "network_or_hardware_used_by_implementation_agent": false,
+  "supervisor_build_only_contributions": {
+    "feedback": [
+      "spec/SUPERVISOR-FEEDBACK-01.txt",
+      "spec/SUPERVISOR-FEEDBACK-02.txt"
+    ],
+    "changes": [
+      "Absolute configure_file input path",
+      "Build-local ROM linker script removing 14 conflicting absolute function assignments"
+    ],
+    "runtime_c_changed": false,
+    "installed_sdk_modified": false,
+    "target_pin": "ESP32-S3 / ESP-IDF 6.0.3",
+    "sdk_rom_script_sha256": "67b760f9ac1736bc5ab4182508ea5d3197e0908b6f2d3ae39f29fc853b9fbea9",
+    "build_files_sha256": {
+      "CMakeLists.txt": "4f7a95cebb878315351cf6f379da5b730e16e83ad1e133c46ef2678d4647db6e",
+      "cmake/replace_coexist.cmake": "d22668a2890d9a899cbac0268a63865da5a73c5676a96f1dda3ae43175809ab7",
+      "cmake/replace_rom_bindings.cmake": "ddd86b9770dfe722310a46d30303f3fb95117a5ad91c5d94eca0739442f51952"
+    }
+  },
+  "inputs_sha256": {
+    "AGENTS.md": "87ba86982fc2339a0728537b69787804d2e2c483b84b7d771c24f0c2704794fc",
+    "spec/01-policy-defaults.json": "db050a3f14b8dcb68524d7b15d309057570190ea6db17f3412616572eece06d4",
+    "spec/01-policy-defaults.md": "056f359b6e1fe33ebc65eee8222e8189ce7d12f2bff3efa32d61f1f9e630082a",
+    "spec/02-bridge-types-and-identities.md": "4cc6219d49b678507a0686adfc1679371817e317cc91b21d026b166b1488e664",
+    "spec/03-selector-and-phase-state-machine.md": "53bc32cf31ee3c0eebf6b61bdaa552d8614c41e5cb16564d9e3614084b0eff57",
+    "spec/04-mmio-and-external-contracts.md": "5e104f3c52ab8fdd9b19fef9577d03ada54f14ea3ad5ef26c5d8558abd1b902a",
+    "spec/05-internal-prototypes.json": "359458f8ac7c76a4aabcda345f4af2d47c7cab2ef6575289e0289645dd730225",
+    "spec/05-internal-prototypes.md": "abb493134c46a6a2fff6ea3e66e62ff78e67652a8010950289bb7c2dce33c9ec",
+    "spec/05-internal-prototypes.txt": "305d3cd7f913f34b0d28c2714ba3063834d24880892697747bcfed439f73d4f0",
+    "spec/06-startup-data.md": "33638debfdea9284efc0327da8518c34d06cc5f323e3d2517569d0f3712a235e",
+    "spec/07-completeness-and-verification.md": "4b92e4a006c3a87bf3a0169456e15975384562b9bd080e9b700566fd5480b150",
+    "spec/README.md": "0f3be5a433d120ce9ec5dd010fe59f76402b995e3275e3e2b82edb6c2115c7e1",
+    "spec/SUPERVISOR-FEEDBACK-01.txt": "5156b90cf0e868a31e4abce07324974e9567d81080d77823533dec76c6903279",
+    "spec/SUPERVISOR-FEEDBACK-02.txt": "f6f6e1c43e17028aeab57f14a5ad40307b0e847634ba47cad4f6e3f78ffcffba",
+    "spec/abi-and-rom.md": "e81c40a233d4d43d321ef51a4cfd5cdf74759be397e16dd5db9f7857bcaf9fe5",
+    "spec/behavior-contracts.md": "60697933ddc50fa3cca03bf01d9f613b6f84d67ea3fdd57085c6e2023af394bf",
+    "spec/data-exports.json": "e013e6d6e968e3e7a3f6b03d86a8992d668d697c386a03ab80ab006517542270",
+    "spec/external-dependencies.json": "5b10d7132e8a26d1aeff9c516e7f345fd18cbc62df4ca1b5a28d1c08d862dcda",
+    "spec/function-exports.json": "6199991cf997a15b9e51da637ecc87cafe72e0390f2f9b3dd2f796f7ffff4eaf",
+    "spec/policy-and-plan.md": "430efe91b3ef62dd19d2647c38a5ff64e2db878fc6e510183ef1bbc991476e6b",
+    "spec/public-declarations.txt": "88dc74b1fcad683652409e8e63c1e379604ced4c2ebbb6a050b54932a1a9d219",
+    "spec/public-sdk/esp_coex_i154.h": "4989f8d5a99300cf75419d099d735e38fb27be3f083bb79e7abe8a5af0d34f3e",
+    "spec/public-sdk/esp_coexist.h": "d19f9939dc10923aa5fdc6bf5ef5ed6d170b1febb6a2ac01c0629d3cceb69adb",
+    "spec/public-sdk/esp_coexist_adapter.h": "26dc6d82708ffb9e6ccf9233454a9946b0017d50f901be1b0f73624d97b72742",
+    "spec/public-sdk/esp_coexist_debug.h": "165cf18f5f1ca3f9e3e69bcc237f3202e9ee2ea802a4f9f3de19b2767406ab83",
+    "spec/public-sdk/esp_coexist_internal.h": "c9bb618221286c9e226cd62a94c347647bc5fa186a9f187da804f51e81d9d6f8",
+    "spec/public-sdk/ets_timer_type_excerpt.h": "f54e1a61bb31a5a9b5f472683ba17b7e387ab10091bb0a3445a17bc78df4dc22"
+  },
+  "verification": {
+    "host": "make test: strict compiler; ASan/UBSan core and full integration suites; strong weak-policy override suite",
+    "layout": "Freestanding -m32 compile; actual target compiler check built into CMake component",
+    "exports": "Exact 89 functions + 117 objects; 107 weak descriptors; descriptor sizes checked",
+    "leak_sanitizer": "Disabled: incompatible with ptrace sandbox; no leak-freedom claim",
+    "target_sdk_and_hardware": "Supervisor-owned qualification, not performed by implementation agent",
+    "whole_binary_equivalence": "Not claimed from host functional-contract tests or bounded independent comparisons",
+    "supervisor_independent_comparison": {
+      "source": "spec/SUPERVISOR-FEEDBACK-02.txt",
+      "result": "PASS",
+      "selector_cases": 256,
+      "mmio_cases": 68,
+      "ordered_mmio_transactions": 314,
+      "oracle_inputs_read_by_implementation_agent": false
+    },
+    "final_target_relink_ownership_placement_audit": "PASS: supervisor audit, all 89 functions / 117 objects, see validation/results.json",
+    "supervisor_hardware": "PASS: 984 checks, 8 device boots, both full flash images restored; scope in validation/results.json"
+  },
+  "compatibility_choices": [
+    "Preserve one-byte counter wrap and observed thresholds",
+    "Preserve deleted core semaphore handle after scheduler-init failure",
+    "Preserve ROM dispatch publication-before-fill and free-before-clear with caller quiescence requirement",
+    "Preserve negative phase index integer-address behavior; outside supported caller domain",
+    "Keep all independently addressed weak policies, including equal-valued descriptors",
+    "Use normalized internal ABI declarations from closure 05 and public SDK declarations",
+    "Use original diagnostic wording under closure 05 normalization allowance"
+  ]
+}

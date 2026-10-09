@@ -1,0 +1,17 @@
+{
+  "scope": "Undefined symbol union minus all definitions in the original archive; dynamic adapter callbacks and raw MMIO are additional dependencies.",
+  "symbols": [
+    "coex_core_ble_conn_dyn_prio_get",
+    "coex_env_ptr",
+    "coex_pti_tab_ptr",
+    "coex_schm_env_ptr",
+    "coexist_funcs",
+    "coexist_printf",
+    "esp_coex_rom_version_get",
+    "g_coa_funcs_p",
+    "g_coex_param_ptr",
+    "puts",
+    "strlen",
+    "strncmp"
+  ]
+}

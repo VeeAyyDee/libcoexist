@@ -1,0 +1,13 @@
+The original libcoexist implementation, tests, generators and build integration
+in this directory are distributed under the Mozilla Public License 2.0.
+
+Public SDK declarations under spec/public-sdk retain their stated Espressif
+copyright notices and Apache License 2.0. Conditional declaration fallbacks in
+include/coexist_subset.h restate the supplied public ABI enums/prototypes; those
+interface declarations retain the same Apache-2.0 attribution. The remainder of
+that original header is MPL-2.0. Apache-2.0 license text is in LICENSES/.
+
+No original radio binary, reconstructed implementation, generated instruction
+interpreter or private evidence file was read by the implementation agent.
+Specification identifiers naming original evidence are references only; none
+were followed outside this tree.
